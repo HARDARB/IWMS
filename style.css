@@ -1,0 +1,592 @@
+body {
+   box-sizing: border-box;
+   margin: 0;
+   border: 0;
+   font-family: 'Fasthand', cursive;
+   font-family: 'Roboto', sans-serif;
+}
+
+.backtotop {
+   right: 2%;
+   bottom: 2%;
+   position: fixed;
+   z-index: 999;
+}
+/*-------------------------- navbar section start------------------------ */
+.navbar {
+   background-color: transparent;
+}
+.navbar-brand {
+   color: black;
+}
+
+.nav-image img {
+   height: 30px;
+   width: auto;
+}
+.navbar-nav li a {
+   color: black;
+   position: relative;
+   font-size: 1em;
+   font-weight: 700;
+   transition: .5s ease-in-out;
+}
+
+.navbar-nav li a:hover {
+   font-size: 1.2rem;
+   padding: .3rem;
+   color: green;
+}
+
+.navbar-nav li {
+   list-style-type: none;
+}
+
+.call {
+   margin-right: 1rem;
+   color: green;
+}
+
+/*-------------------------- navbar section end here------------------------ */
+
+/*-------------------------- header section start here------------------------ */
+
+.header {
+   padding: 30px 10px;
+   height: 140vh;
+   position: relative;
+}
+
+
+.text-header--1 {
+   padding: 10px;
+}
+
+.text-header--1 p {
+   padding: 10px;
+}
+
+.block {
+   background-color: white;
+   padding: 10px 30PX;
+}
+
+.text-header--2 h1 {
+   font-size: 1.5rem;
+   font-weight: 700;
+   line-height: 30px;
+   color: #005826;
+}
+
+.text-header--2 p {
+   margin-top: 10px;
+   font-size: 1.2rem;
+   font-weight: 400;
+}
+
+.header .btn-success {
+   padding: 0 5px;
+   border-radius: 10%;
+}
+
+.text-header--3 {
+   padding: 10px;
+}
+
+.text-header--3 p {
+   padding: 10px;
+
+}
+
+
+.ontop {
+   position: absolute;
+   z-index: 99;
+   top: 55%;
+   background: white;
+}
+
+
+.col-center {
+   margin: 0 auto;
+   float: none !important;
+}
+
+/* .carousel {
+    margin: auto;
+} */
+
+.carousel-item {
+   color: white;
+   font-size: 14px;
+   text-align: center;
+   overflow: hidden;
+   height: 30vh;
+}
+
+
+.carousel-item .image-box {
+   margin-top: 0;
+   width: 100%;
+   height: 30vh;
+}
+
+.carousel-item .image-box img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.carousel .testimonial {
+   padding: 30px 0 10px;
+}
+
+.carousel .overview {
+   font-style: italic;
+}
+
+.carousel .overview b {
+   text-transform: uppercase;
+   color: red;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+   width: 40px;
+   height: 40px;
+   margin-top: -20px;
+   top: 50%;
+   background: none;
+   border: none;
+}
+
+
+.carousel .carousel-indicators {
+   bottom: 5px;
+   left: 5%;
+}
+
+.carousel-indicators .li,
+.carousel-indicators .li .active {
+   width: 10px;
+   height: 10px;
+   margin: 1px 3px;
+   border-radius: 50%;
+   border: none;
+   background: white;
+   position: relative;
+
+}
+
+
+
+
+@media (min-width: 768px) { 
+   .header {
+      padding: 50px 100px 30px 100px;
+      height: 100vh;
+      position: relative;
+   }
+
+   .text-header--2 h1 {
+      margin-top: 30px;
+      font-size: 2.8rem;
+      font-weight: 700;
+      line-height: 50px;
+      color: #005826;
+   }
+   
+   .text-header--2 p {
+      margin-top: 20px;
+      font-size: 1rem;
+      font-weight: 400;
+   }
+   .ontop {
+      position: absolute;
+      z-index: 99;
+      top: 60%;
+      background: white;
+   }
+
+   .carousel-item {
+      color: white;
+      font-size: 14px;
+      text-align: center;
+      overflow: hidden;
+      height: 100vh;
+   }
+
+   .carousel-item .image-box {
+      margin-top: 5px;
+      width: 100%;
+      height: 60vh;
+   }
+   .carousel .carousel-indicators {
+      bottom: 50px;
+      left: 60%;
+   }
+}
+
+
+/*-------------------------- header section end here------------------------ */
+
+
+
+/*-------------------------- big-background start here------------------------ */
+
+.big-background {
+   background-size: 60%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-image: url(/image/bigbackground-image.png);
+   height: 60vh;
+   width: auto;
+   background-position: 10%;
+   background-color: rgb(212, 210, 210);
+
+}
+
+@media (min-width: 768px) { 
+.big-background {
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-image: url(/image/bigbackground-image.png);
+   height: 100vh;
+   background-color: rgb(212, 210, 210);
+
+}
+}
+
+
+
+/*-------------------------- big background end here------------------------ */
+
+/*-------------------------- About us section start here------------------------ */
+
+
+.section-process {
+   padding: 30px 10px;
+   position: relative;
+   cursor: pointer;
+}
+
+.aboutus-text  {
+   padding: 0 10px;
+}
+
+.section-process h1 {
+   font-size: 2rem;
+   font-weight: 700;
+   text-align: start;
+}
+
+.aboutus-text br {display: none;}
+
+.section-process h2 {
+   font-size: 1.5rem;
+   color: #005826;
+   font-weight: 700;
+}
+
+.quote {
+   float: left;
+   margin-right: 10px;
+}
+
+.cite {
+   width: 80%;
+   display: block;
+   overflow: hidden;
+}
+
+.block-about-small {
+   margin-top: 10px;
+   background-color: #005826;
+   color: white;
+}
+
+
+.block-about-small p {
+   font-size: .8rem;
+}
+
+.content-image {
+   height: 500px;
+   width: auto;
+}
+
+.content-image img {
+   height: 100%;
+   width: 100%;
+   object-fit: contain;
+}
+
+
+@media (min-width: 768px) { 
+   .section-process {
+      padding: 50px 120px;
+      position: relative;
+      cursor: pointer;
+   }
+   .aboutus-text  {
+      padding: 0 50px;
+   }
+
+    .aboutus-text br{
+      display: block;
+   }
+
+   .section-process h1 {
+      font-size: 4rem;
+      font-weight: 700;
+      text-align: end;
+   }
+   
+
+}
+/*-------------------------- About us section end here------------------------ */
+
+
+/*--------------------------Section recycle process start here------------------------ */
+
+.section-waste {
+   padding: 30px;
+}
+
+.section-waste h2 {
+   font-weight: 500;
+}
+
+.content-image--1 {
+   height: 300px;
+   width: 300px;
+   margin-top: 20px;
+}
+
+.content-image--1 img {
+   height: 100%;
+   width: 100%;
+   object-fit: contain;
+}
+
+.text-box p {
+   margin-top: 80px;
+}
+
+@media (min-width: 768px) { 
+   .section-waste {
+      padding: 50px;
+   }
+   .content-image--1 {
+      height: 500px;
+      width: 500px;
+      margin-top: 100px;
+   }
+   
+   .content-image--1 img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+   }
+   
+}
+
+/*-------------------------- Section recycle process end here----------------------- */
+
+
+/*--------------------------Section mission and vision start here----------------- */
+
+
+.section-future {
+   padding: 30px 0;
+   position: relative;
+   background-color: rgb(239, 237, 237);
+
+}
+
+.section-future .icon {
+   margin-bottom: 50px;
+   font-size: 50px;
+   float: none;
+   margin-right: 0;
+}
+
+.section-future .details {
+   display: block;
+   overflow: hidden;
+}
+
+.section-future .vision {
+   margin-top: 50px;
+   margin-right: 0;
+}
+
+.future-header {
+   padding: 10px;
+   color: #55754a;
+   text-align: end;
+}
+
+.future-header .future-header-details {
+   border-right: 20px solid #005826;
+   padding: 0 10px 0 0;
+}
+
+.future-header h1 {
+   margin-top: 50px;
+   font-size: 2rem;
+   font-weight: 600;
+
+}
+
+.future-header h2 {
+   font-size: 1rem;
+}
+
+.future-image {
+   height: 200px;
+   width: 200px;
+}
+
+.future-image img {
+   height: 100%;
+   width: 100%;
+}
+
+
+@media (min-width: 768px) { 
+   .section-future .icon {
+      margin-bottom: 50px;
+      font-size: 50px;
+      float: left;
+      margin-right: 40px;
+   }
+
+   .section-future .vision {
+      margin-top: 100px;
+      margin-left: 100px;
+   }
+   
+   .future-header h1 {
+      margin-top: 30px;
+      font-size: 2rem;
+      font-weight: 600;
+   
+   }
+}
+/* --------------- Section mission and vision end here ------------------- */
+
+
+/* --------------- Section facilities start here  ------------------- */
+
+.section-presence {
+   padding: 30px 10px;
+   color: #005826;
+   position: relative;
+}
+
+.design {
+   overflow: hidden;
+}
+
+.global-text--1 {
+   background-color: #55754a;
+   padding: 10px;
+   color: white;
+
+}
+
+.globaltext1-under {
+   margin-top: 30px;
+   font-size: 1.5rem;
+}
+
+.section-presence h1 {
+   font-size: 1.3rem;
+   font-weight: 600;
+}
+
+.section-presence p {
+   font-size: 1rem;
+   margin-left: 10px;
+}
+
+.presence-image {
+   height: 400px;
+   width: 400px;
+}
+
+
+.global-text-3 {
+   background-color: rgb(239, 237, 237);
+   padding: 30px 0;
+}
+
+.Global-image--2 {
+   height: 300px;
+   width: 300px;
+}
+
+.Global-image--2 img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+@media (min-width: 768px) { 
+   .section-presence {
+      padding: 30px;
+      color: #005826;
+      position: relative;
+   }
+   .global-text--1 {
+      background-color: #55754a;
+      padding: 50px;
+      color: white;
+   
+   }
+
+   .section-presence p {
+      font-size: 1rem;
+      margin-left: 0;
+   }
+   .global-text-3 {
+      background-color: rgb(239, 237, 237);
+      padding: 100px 0;
+   }
+}
+/* --------------- Section facilities end here  ------------------- */
+
+
+/* --------------- Section gallary start here ----------------- */
+
+.check-gallery {
+   color: white;
+   height: 50px;
+   background-color: #55754a;
+}
+
+/* --------------- section gallary end here  ----------------- */
+
+/* --------------- Section footer start here   ----------------- */
+
+
+.footer {
+   color: white;
+   background-color: #005826;
+  
+}
+
+.newsletter-image {
+   height: 100px;
+   width: 100px;
+}
+
+.newsletter-image img {
+   height: 100px;
+   width: 100px;
+}
+
+/* ---------------  Section footer end here   ----------------- */
